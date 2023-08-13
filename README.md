@@ -31,7 +31,7 @@ If you're interested in using our project for your own applications, follow thes
 
 2. **Model Training**: Use the provided notebooks to train your preferred depth estimation model (DenseNet or MobileNet).
 
-3. **Robot Deployment**: Utilize the `obstacle_avoidance.py` script to deploy the trained model on a Kobuki Turtlebot 2 and observe its obstacle avoidance capabilities.
+3. **Robot Deployment**: Utilize the `obstacle_avoidance_.py` script to deploy the trained model on a Kobuki Turtlebot 2 and observe its obstacle avoidance capabilities.
 
 4. **Advanced Goal Navigation**: For more advanced navigation with goal setting, refer to the `goal_final.py` script, which combines obstacle avoidance with the SIFT algorithm for goal-oriented movement.
 
