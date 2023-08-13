@@ -476,8 +476,9 @@ if __name__ == '__main__':
         twist = Twist()
         rate = rospy.Rate(10)#1Hz
         # Load the ONNX model
+	# Convert your model to an onnx model before hand
         path='/home/linux/Downloads/model_final.onnx'
-        session = onnxruntime.InferenceSession(path, providers=['CPUExecutionProvider'])
+        session = onnxruntime.InferenceSession(path, providers=['CUDAExecutionProvider'])
         input_name = session.get_inputs()[0].name
         output_name = session.get_outputs()[0].name
         print("Starting Obstacle Avoidance")
