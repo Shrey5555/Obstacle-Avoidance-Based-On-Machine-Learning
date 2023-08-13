@@ -21,6 +21,7 @@ Our project is centered around two main models and accompanying scripts. Here's 
 ### Additional Files
 
 - `Project_Report.pdf`: A detailed report outlining the project's goals, methodology, results, and insights. It provides a comprehensive overview of our approach and its outcomes.
+- `Demonstration`: This directory contains video demonstration links for the two different implementations.
 
 ## Getting Started
 
@@ -39,4 +40,3 @@ If you're interested in using our project for your own applications, follow thes
 Our project demonstrates the integration of machine learning techniques with robotics to achieve effective obstacle avoidance and goal-driven navigation. We hope this repository serves as a valuable resource for those interested in applying similar approaches to their own robotic systems. Feel free to explore the code, experiment with different settings, and adapt our solution to your specific needs.
 
 If you have any questions or feedback, please don't hesitate to get in touch. Happy coding and robot navigating!
-
