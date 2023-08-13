@@ -21,7 +21,7 @@ Our project is centered around two main models and accompanying scripts. Here's 
 ### Additional Files
 
 - `Project_Report.pdf`: A detailed report outlining the project's goals, methodology, results, and insights. It provides a comprehensive overview of our approach and its outcomes.
-- `Demonstration`: This directory contains video demonstration links for the two different implementations.
+- `Demonstration.md`: This directory contains video demonstration links for the two different implementations.
 
 ## Getting Started
 
