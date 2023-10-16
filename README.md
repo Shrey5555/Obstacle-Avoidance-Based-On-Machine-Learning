@@ -1,6 +1,9 @@
 # Obstacle Avoidance using Machine Learning
 
 Welcome to the GitHub repository for the project on obstacle avoidance using machine learning! In this project, a solution that employs the power of machine learning and deep learning to enable a robot to navigate and avoid obstacles in its environment was developed, utilizing the monocular depth estimation technique with U-Net architecture, trained on the NYU Depth V2 dataset. Additionally, two different encoder networks - DenseNet and MobileNet - to showcase the versatility were incorporated.
+![Obstacle_Avoidance](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/e7c40d9c-f05e-4fca-acc5-4e9628833c1b)
+
+![Goal_Detection](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/0da508ba-7271-4d5c-8536-f37f50d568cd)
 
 ## Project Overview
 
