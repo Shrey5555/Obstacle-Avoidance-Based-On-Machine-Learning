@@ -46,4 +46,4 @@ If you're interested in using this project for your own applications, follow the
 
 This project demonstrates the integration of machine learning techniques with robotics to achieve effective obstacle avoidance and goal-driven navigation. Hope this repository serves as a valuable resource for those interested in applying similar approaches to their own robotic systems. Feel free to explore the code, experiment with different settings, and adapt the solution to your specific needs.
 
-If you have any questions or feedback, please don't hesitate to get in touch. Happy coding and robot navigating!
+If you have any questions or feedback, please don't hesitate to get in touch [Email me](mailto:shreygupta0509@gmail.com). Happy coding!
