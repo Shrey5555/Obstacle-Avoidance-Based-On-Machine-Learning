@@ -19,12 +19,30 @@ This project is centered around two main models and accompanying scripts. Here's
 <p align="center">
   <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/d97286e6-6ba5-4431-bfac-1d319384f898" alt="Obstacle Avoidance">
 </p>
+<div align="center">
+  <p>Space Above</p>
+</div>
+
+---
+
+<div align="center">
+  <p>Space Below</p>
+</div>
 
 2. **goal_final.py**: Building upon the obstacle avoidance concept, this script takes the project a step further. It incorporates the SIFT algorithm to establish a predefined goal and guides the robot towards it. The script showcases how the machine learning-based approach can be extended to incorporate higher-level decision-making processes.
 
 <p align="center">
   <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/c29a0a1f-e1a6-44aa-b3ca-1d5c88a8db96" alt="Goal Detection">
 </p>
+<div align="center">
+  <p>Space Above</p>
+</div>
+
+---
+
+<div align="center">
+  <p>Space Below</p>
+</div>
 
 ### Additional Files
 
