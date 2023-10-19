@@ -15,10 +15,13 @@ This project is centered around two main models and accompanying scripts. Here's
 ### Scripts
 
 1. **obstacle_avoidance.py**: This Python script showcases the practical implementation of the obstacle avoidance approach on a Kobuki Turtlebot 2. The script integrates the trained depth estimation model to enable the robot to autonomously navigate its environment while avoiding obstacles.
+
 <p align="center">
   <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/d97286e6-6ba5-4431-bfac-1d319384f898" alt="Obstacle Avoidance">
 </p>
+
 2. **goal_final.py**: Building upon the obstacle avoidance concept, this script takes the project a step further. It incorporates the SIFT algorithm to establish a predefined goal and guides the robot towards it. The script showcases how the machine learning-based approach can be extended to incorporate higher-level decision-making processes.
+
 <p align="center">
   <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/c29a0a1f-e1a6-44aa-b3ca-1d5c88a8db96" alt="Goal Detection">
 </p>
