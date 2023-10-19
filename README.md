@@ -45,13 +45,15 @@ This project is centered around two main models and accompanying scripts. Here's
 
 If you're interested in using this project for your own applications, follow these steps:
 
-1. **Data Preparation**: Download and preprocess the NYU Depth V2 dataset as described in the model training notebooks (`Dense_net_model_training.ipynb` and `Mobile_net_model_training.ipynb`).
+1. **Data Preparation**: Download and preprocess the [NYU Depth V2 dataset](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) as described in the model training notebooks (`Dense_net_model_training.ipynb` and `Mobile_net_model_training.ipynb`).
 
 2. **Model Training**: Use the provided notebooks to train your preferred depth estimation model (DenseNet or MobileNet).
+   
+3. **ROS Installation**: Install ROS on your system, follow the official installation instructions provided in the [ROS documentation](https://wiki.ros.org/noetic/Installation/Ubuntu).
 
-3. **Robot Deployment**: Utilize the `obstacle_avoidance.py` script to deploy the trained model on a Kobuki Turtlebot 2 and observe its obstacle avoidance capabilities.
+4. **Robot Deployment**: Utilize the `obstacle_avoidance.py` script to deploy the trained model on a Kobuki Turtlebot 2 and observe its obstacle avoidance capabilities.
 
-4. **Advanced Goal Navigation**: For more advanced navigation with goal setting, refer to the `goal_final.py` script, which combines obstacle avoidance with the SIFT algorithm for goal-oriented movement.
+5. **Advanced Goal Navigation**: For more advanced navigation with goal setting, refer to the `goal_final.py` script, which combines obstacle avoidance with the SIFT algorithm for goal-oriented movement.
 
 ## Conclusion
 
