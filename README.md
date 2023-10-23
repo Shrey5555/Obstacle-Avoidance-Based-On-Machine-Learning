@@ -51,7 +51,7 @@ If you're interested in using this project for your own applications, follow the
    
 3. **ROS Installation**: Install ROS on your system, follow the official installation instructions provided in the [ROS documentation](https://wiki.ros.org/noetic/Installation/Ubuntu).
 
-4. **Robot Deployment**: Utilize the `obstacle_avoidance.py` script to deploy the trained model on a Kobuki Turtlebot 2 and observe its obstacle avoidance capabilities.
+4. **Robot Deployment**: Utilize the [`obstacle_avoidance.py`](obstacle_avoidance.py) script to deploy the trained model on a Kobuki Turtlebot 2 and observe its obstacle avoidance capabilities.
 
 5. **Advanced Goal Navigation**: For more advanced navigation with goal setting, refer to the [`goal_final.py`](goal_final.py) script, which combines obstacle avoidance with the SIFT algorithm for goal-oriented movement.
 
