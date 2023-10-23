@@ -8,7 +8,7 @@ This project is centered around two main models and accompanying scripts. Here's
 
 ### Models
 
-1. **DenseNet-based Monocular Depth Estimation Model**: In the [`Dense_net_model_training.ipynb`](dense-net-model-training.ipynb), provides a comprehensive guide on training a U-Net architecture for monocular depth estimation using the DenseNet model as the encoder. This model learns to perceive depth from a single input image and has demonstrated higher accuracy in the experiments.
+1. **DenseNet-based Monocular Depth Estimation Model**: In the [`Dense_net_model_training.ipynb`](Dense_net_model_training.ipynb), provides a comprehensive guide on training a U-Net architecture for monocular depth estimation using the DenseNet model as the encoder. This model learns to perceive depth from a single input image and has demonstrated higher accuracy in the experiments.
 
 2. **MobileNet-based Monocular Depth Estimation Model**: The [`Mobile_net_model_training.ipynb`](mobile-net-model-training.ipynb) demonstrates the training process for another U-Net architecture, this time utilizing the MobileNet model as the encoder. While this model achieves slightly lower accuracy compared to the DenseNet model, it offers a significant advantage in terms of faster prediction times. This can be especially beneficial when hardware limitations are a concern.
 
