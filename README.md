@@ -42,11 +42,11 @@ To address potential challenges posed by the floor, the project includes a floor
 
 <div align="center">
     <p><strong>Robot's Depth View</strong></p>
-    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/27fec476-0706-48d9-9f47-2497969db6a0" alt="Floor Data Processing">
+    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/03ce415b-540e-4301-811e-419bd6208640" alt="Floor Data Processing">
 </div>
 <div align="center">
     <p><strong>Floor Data Marked Out by Calculating Normals</strong></p>
-    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/dd88a52f-fb9b-41ab-9970-18d6f309626" alt="Floor Data Processing">
+    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/e8c867b0-97e2-4c89-8dd9-14c078f0b38b" alt="Floor Data Processing">
 </div>
 
 ### Models
