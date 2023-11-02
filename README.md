@@ -1,16 +1,52 @@
 # Obstacle Avoidance using Machine Learning
 
-Welcome to the GitHub repository for the project on obstacle avoidance using machine learning! In this project, a solution that employs the power of machine learning and deep learning to enable a robot to navigate and avoid obstacles in its environment was developed, utilizing the monocular depth estimation technique with U-Net architecture, trained on the NYU Depth V2 dataset. Additionally, two different encoder networks - DenseNet and MobileNet - to showcase the versatility were incorporated.
+Welcome to the GitHub repository for the project on obstacle avoidance using machine learning! In this project, a solution that employs the power of machine learning and deep learning to enable a robot to navigate and avoid obstacles in its environment and reach predefined goal locations was developed, utilizing the monocular depth estimation technique with U-Net architecture. 
 
 ## Project Overview
 
-This project is centered around two main models and accompanying scripts. Here's a breakdown of what you'll find in this repository:
+## Introduction
+The Obstacle Avoidance project leverages machine learning techniques to enable a Kobuki Turtlebot 2 to navigate its environment while avoiding obstacles and reaching predefined goal locations. This project combines monocular depth estimation, the SIFT algorithm, and careful floor data processing to achieve efficient and safe robot navigation.
+
+![DSCN2218](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/f7287c85-6e24-4978-982e-07c5fcb0a430)
+*Image: Kobuki Turtlebot 2*
+
+## Key Components
+
+### Monocular Depth Estimation
+A monocular depth estimation model trained on the NYU Depth V2 dataset, is employed to generate depth images from a single camera. These depth images provide crucial information about the environment's spatial structure, enabling the robot to perceive obstacles and distances effectively.
+
+### UNet Architecture with DenseNet Encoder
+The core of the depth estimation model is based on a UNet architecture with a DenseNet model serving as the encoder. This combination enhances the model's ability to extract features and make accurate depth predictions.
+
+![image](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/4455cb8f-8188-4b5c-b5c0-5192aeb89f09)
+*Image: Input image and Predicted depth image*
+
+### MobileNet Encoder
+An alternative encoder based on MobileNet architecture was also considered and tested. While not the primary choice, it provides faster inference time but with a lower accuracy.
+
+### SIFT Algorithm
+SIFT (Scale-Invariant Feature Transform) is used to detect the goal by identifying distinctive image features that are invariant to scale, rotation, and lighting changes. These features, or keypoints, are matched between the robot's camera image and the reference goal image. RANSAC is then applied to improve accuracy and determine the goal's location and orientation. The goal's center position is used to correct the robot's position by calculating steering angles for goal pursuit while avoiding any obstacles in between.
+
+!![image](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/cffd66a2-d6b4-481f-8931-94837eba3dcd)
+*Image: Recognizing Predefined Goal Locations Using SIFT*
+
+### Floor Data Processing
+To address potential challenges posed by the floor, the project includes a floor data processing step. The floor data is marked away by calculating normals of the image, ensuring that any surface appearing as floors, mats, or small objects that are not any obstacle for the robot are marked out.
+
+![depth_1](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/29c74806-ce3f-46c9-8f29-00c7eb228240)
+*Image: Robot's Depth View*
+
+![depth_1](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/dd88a52f-fb9b-41ab-9970-18d6f309626e)
+*Image: Floor Data Marked Out by Calculating Normals*
+
+
+This project is centered around two main models. Here's a breakdown of what you'll find in this repository:
 
 ### Models
 
-1. **DenseNet-based Monocular Depth Estimation Model**: In the [`Dense_net_model_training.ipynb`](Dense_net_model_training.ipynb), provides a comprehensive guide on training a U-Net architecture for monocular depth estimation using the DenseNet model as the encoder. This model learns to perceive depth from a single input image and has demonstrated higher accuracy in the experiments.
+1. **DenseNet-based Monocular Depth Estimation Model**: In the [`Dense_net_model_training.ipynb`](Dense_net_model_training.ipynb), provides a comprehensive guide on training a U-Net architecture for monocular depth estimation using the DenseNet model as the encoder. This model learns to perceive depth from a single input image and has demonstrated higher accuracy of 97% on validation data and 86% on testing data.
 
-2. **MobileNet-based Monocular Depth Estimation Model**: The [`Mobile_net_model_training.ipynb`](Mobile_net_model_training.ipynb) demonstrates the training process for another U-Net architecture, this time utilizing the MobileNet model as the encoder. While this model achieves slightly lower accuracy compared to the DenseNet model, it offers a significant advantage in terms of faster prediction times. This can be especially beneficial when hardware limitations are a concern.
+2. **MobileNet-based Monocular Depth Estimation Model**: The [`Mobile_net_model_training.ipynb`](Mobile_net_model_training.ipynb) demonstrates the training process for another U-Net architecture, this time utilizing the MobileNet model as the encoder. While this model achieves slightly lower accuracy compared to the DenseNet model (94% on validation data and 80% on testing data), it offers a significant advantage in terms of faster inference times. This can be especially beneficial when hardware limitations are a concern.
 
 ### Scripts
 
