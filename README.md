@@ -8,6 +8,20 @@ The Obstacle Avoidance project leverages machine learning techniques to enable a
     <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/c3b77f59-bca4-4732-9e47-f11abe129b70">
 </div>
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Key Components](#key-components)
+  - [Monocular Depth Estimation](#monocular-depth-estimation)
+  - [UNet Architecture with DenseNet Encoder](#unet-architecture-with-densenet-encoder)
+  - [MobileNet Encoder (Optional)](#mobilenet-encoder-optional)
+  - [SIFT Algorithm](#sift-algorithm)
+  - [Floor Data Processing](#floor-data-processing)
+- [Models](#models)
+- [Scripts](#scripts)
+- [Additional Files](#additional-files)
+- [Getting Started](#getting-started)
+- [Conclusion](#conclusion)
+
 ## Key Components
 
 ### Monocular Depth Estimation
