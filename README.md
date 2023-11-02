@@ -1,10 +1,7 @@
 # Obstacle Avoidance using Machine Learning
-
 Welcome to the GitHub repository for the project on obstacle avoidance using machine learning! In this project, a solution that employs the power of machine learning and deep learning to enable a robot to navigate and avoid obstacles in its environment and reach predefined goal locations was developed, utilizing the monocular depth estimation technique with U-Net architecture. 
 
 ## Project Overview
-
-## Introduction
 The Obstacle Avoidance project leverages machine learning techniques to enable a Kobuki Turtlebot 2 to navigate its environment while avoiding obstacles and reaching predefined goal locations. This project combines monocular depth estimation, the SIFT algorithm, and careful floor data processing to achieve efficient and safe robot navigation.
 <div align="center">
     <p><strong>Kobuki Turtlebot 2</strong></p>
