@@ -23,7 +23,7 @@ The core of the depth estimation model is based on a UNet architecture with a De
 
 <div align="center">
     <p><strong>Input image and Predicted depth image</strong></p>
-    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/4455cb8f-8188-4b5c-b5c0-5192aeb89f09" alt="Input image and Predicted depth image">
+    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/4455cb8f-8188-4b5c-b5c0-5192aeb89f09">
 </div>
 
 ### MobileNet Encoder
@@ -34,7 +34,7 @@ SIFT (Scale-Invariant Feature Transform) is used to detect the goal by identifyi
 
 <div align="center">
     <p><strong>Goal Identification Using SIFT</strong></p>
-    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/cffd66a2-d6b4-481f-8931-94837eba3dcd" alt="Goal Recognition">
+    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/cffd66a2-d6b4-481f-8931-94837eba3dcd">
 </div>
 
 ### Floor Data Processing
@@ -42,11 +42,11 @@ To address potential challenges posed by the floor, the project includes a floor
 
 <div align="center">
     <p><strong>Robot's Depth View</strong></p>
-    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/03ce415b-540e-4301-811e-419bd6208640" alt="Floor Data Processing">
+    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/03ce415b-540e-4301-811e-419bd6208640">
 </div>
 <div align="center">
     <p><strong>Floor Data Marked Out by Calculating Normals</strong></p>
-    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/e8c867b0-97e2-4c89-8dd9-14c078f0b38b" alt="Floor Data Processing">
+    <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/e8c867b0-97e2-4c89-8dd9-14c078f0b38b">
 </div>
 
 ### Models
@@ -62,7 +62,7 @@ To address potential challenges posed by the floor, the project includes a floor
   <p></p>
 </div>
 <p align="center">
-  <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/c344830a-358d-4879-ad16-4b14cb07c51f" alt="Obstacle Avoidance">
+  <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/c344830a-358d-4879-ad16-4b14cb07c51f">
 </p>
 <div align="center">
   <p></p>
@@ -73,7 +73,7 @@ To address potential challenges posed by the floor, the project includes a floor
   <p></p>
 </div>
 <p align="center">
-  <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/0b109ff9-0f5d-4b7c-ba58-be23c0575b78" alt="Goal Detection">
+  <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/0b109ff9-0f5d-4b7c-ba58-be23c0575b78">
 </p>
 <div align="center">
   <p></p>
