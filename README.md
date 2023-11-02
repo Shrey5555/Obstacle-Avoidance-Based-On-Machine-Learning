@@ -30,8 +30,6 @@ A monocular depth estimation model trained on the NYU Depth V2 dataset, is emplo
 ### UNet Architecture with DenseNet Encoder
 The core of the depth estimation model is based on a UNet architecture with a DenseNet model serving as the encoder. This combination enhances the model's ability to extract features and make accurate depth predictions.
 
-**Input image and Predicted depth image:**
-
 <div align="center">
     <p><strong>Input image and Predicted depth image</strong></p>
     <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/4455cb8f-8188-4b5c-b5c0-5192aeb89f09">
