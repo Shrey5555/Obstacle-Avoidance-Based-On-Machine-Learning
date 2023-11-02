@@ -7,7 +7,7 @@ Welcome to the GitHub repository for the project on obstacle avoidance using mac
 ## Introduction
 The Obstacle Avoidance project leverages machine learning techniques to enable a Kobuki Turtlebot 2 to navigate its environment while avoiding obstacles and reaching predefined goal locations. This project combines monocular depth estimation, the SIFT algorithm, and careful floor data processing to achieve efficient and safe robot navigation.
 <div align="center">
-    <p>Kobuki Turtlebot 2</p>
+    <p><strong>Kobuki Turtlebot 2</strong></p>
     <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/c3b77f59-bca4-4732-9e47-f11abe129b70">
 </div>
 
@@ -22,7 +22,7 @@ The core of the depth estimation model is based on a UNet architecture with a De
 **Input image and Predicted depth image:**
 
 <div align="center">
-    <p>Input image and Predicted depth image</p>
+    <p><strong>Input image and Predicted depth image</strong></p>
     <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/4455cb8f-8188-4b5c-b5c0-5192aeb89f09" alt="Input image and Predicted depth image">
 </div>
 
@@ -33,7 +33,7 @@ An alternative encoder based on MobileNet architecture was also considered and t
 SIFT (Scale-Invariant Feature Transform) is used to detect the goal by identifying distinctive image features that are invariant to scale, rotation, and lighting changes. These features, or keypoints, are matched between the robot's camera image and the reference goal image. RANSAC is then applied to improve accuracy and determine the goal's location and orientation. After goal detection, a rectangle is drawn around it using perspective transform to find its center position. The goal's center position is used to correct the robot's position by calculating steering angles for goal pursuit while avoiding any obstacles in between.
 
 <div align="center">
-    <p>Goal Identification Using SIFT</p>
+    <p><strong>Goal Identification Using SIFT</strong></p>
     <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/cffd66a2-d6b4-481f-8931-94837eba3dcd" alt="Goal Recognition">
 </div>
 
@@ -45,7 +45,7 @@ To address potential challenges posed by the floor, the project includes a floor
     <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/27fec476-0706-48d9-9f47-2497969db6a0" alt="Floor Data Processing">
 </div>
 <div align="center">
-    <p>**Floor Data Marked Out by Calculating Normals</p>
+    <p><strong>Floor Data Marked Out by Calculating Normals</strong></p>
     <img src="https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/dd88a52f-fb9b-41ab-9970-18d6f309626" alt="Floor Data Processing">
 </div>
 
