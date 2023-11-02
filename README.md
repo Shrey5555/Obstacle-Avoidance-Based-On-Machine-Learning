@@ -18,29 +18,26 @@ A monocular depth estimation model trained on the NYU Depth V2 dataset, is emplo
 ### UNet Architecture with DenseNet Encoder
 The core of the depth estimation model is based on a UNet architecture with a DenseNet model serving as the encoder. This combination enhances the model's ability to extract features and make accurate depth predictions.
 
+**Input image and Predicted depth image:**
 ![image](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/4455cb8f-8188-4b5c-b5c0-5192aeb89f09)
-*Image: Input image and Predicted depth image*
 
 ### MobileNet Encoder
 An alternative encoder based on MobileNet architecture was also considered and tested. While not the primary choice, it provides faster inference time but with a lower accuracy.
 
 ### SIFT Algorithm
-SIFT (Scale-Invariant Feature Transform) is used to detect the goal by identifying distinctive image features that are invariant to scale, rotation, and lighting changes. These features, or keypoints, are matched between the robot's camera image and the reference goal image. RANSAC is then applied to improve accuracy and determine the goal's location and orientation. The goal's center position is used to correct the robot's position by calculating steering angles for goal pursuit while avoiding any obstacles in between.
+SIFT (Scale-Invariant Feature Transform) is used to detect the goal by identifying distinctive image features that are invariant to scale, rotation, and lighting changes. These features, or keypoints, are matched between the robot's camera image and the reference goal image. RANSAC is then applied to improve accuracy and determine the goal's location and orientation. After goal detection, a rectangle is drawn around it using perspective transform to find its center position. The goal's center position is used to correct the robot's position by calculating steering angles for goal pursuit while avoiding any obstacles in between.
 
+**Goal Identification Using SIFT**
 !![image](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/cffd66a2-d6b4-481f-8931-94837eba3dcd)
-*Image: Recognizing Predefined Goal Locations Using SIFT*
 
 ### Floor Data Processing
 To address potential challenges posed by the floor, the project includes a floor data processing step. The floor data is marked away by calculating normals of the image, ensuring that any surface appearing as floors, mats, or small objects that are not any obstacle for the robot are marked out.
 
-![depth_1](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/29c74806-ce3f-46c9-8f29-00c7eb228240)
-*Image: Robot's Depth View*
+**Robot's Depth View**
+![image](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/27fec476-0706-48d9-9f47-2497969db6a0)
 
+**Floor Data Marked Out by Calculating Normals**
 ![depth_1](https://github.com/Shrey5555/Obstacle-Avoidance-Using-Machine-Learning/assets/136813149/dd88a52f-fb9b-41ab-9970-18d6f309626e)
-*Image: Floor Data Marked Out by Calculating Normals*
-
-
-This project is centered around two main models. Here's a breakdown of what you'll find in this repository:
 
 ### Models
 
