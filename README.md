@@ -9,7 +9,6 @@ This project leverages machine learning techniques to enable a Kobuki Turtlebot 
 </div>
 
 ## Table of Contents
-- [Introduction](#introduction)
 - [Key Components](#key-components)
   - [Monocular Depth Estimation](#monocular-depth-estimation)
   - [UNet Architecture with DenseNet Encoder](#unet-architecture-with-densenet-encoder)
