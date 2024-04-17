@@ -12,7 +12,6 @@ This project leverages machine learning techniques to enable a Kobuki Turtlebot 
 - [Key Components](#key-components)
   - [Monocular Depth Estimation](#monocular-depth-estimation)
   - [UNet Architecture with DenseNet Encoder](#unet-architecture-with-densenet-encoder)
-  - [MobileNet Encoder (Optional)](#mobilenet-encoder-optional)
   - [SIFT Algorithm](#sift-algorithm)
   - [Floor Data Processing](#floor-data-processing)
 - [Models](#models)
